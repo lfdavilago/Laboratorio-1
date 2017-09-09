@@ -23,7 +23,7 @@ public class SuperMercado {
         Scanner in = new Scanner(System.in);
     System.out.println("---------Supermercado---------");
 while(opcion != 5){
-    System.out.println("Menuuuuu");
+    System.out.println("Menu");
     
     System.out.println("Marque el numero para la opcion deseada ");
     System.out.println("1. Articulos agotados");
