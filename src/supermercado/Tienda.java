@@ -31,6 +31,7 @@ public class Tienda {
         this.Productos = new Producto[500];
         this.Proveedores = new Proveedor[400];
         this.Empleados = new Empleado[7];
+        this.Jerarquia = new String[500];
         this.Compras_totales = 0;
         this.Egreso_total = 0;
         this.Ingreso_total = 0;

@@ -75,18 +75,12 @@ public class Producto {
         return Estado;
     }
     // Setters
-
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
-    }
-
     public void setCantidad(int Cantidad, int a) {
         if(a==0){
         this.Cantidad += Cantidad;}
         if(a==1){
         this.Cantidad-= Cantidad;}
         }
-        
     
     public void setEstado(){
     if(this.Cantidad == 0){

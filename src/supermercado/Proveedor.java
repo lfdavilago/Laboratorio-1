@@ -22,6 +22,7 @@ public class Proveedor {
         this.Cont = 0;
         this.deudas = 0;
         this.Productos = productos;
+        this.Facturas = new Factura[500];
     }
     // Getters
     public String getNombre() {
